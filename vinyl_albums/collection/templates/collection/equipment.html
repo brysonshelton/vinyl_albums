@@ -1,0 +1,32 @@
+{% extends 'collection/base.html' %}
+<!--{% load static %}-->
+<!DOCTYPE html>
+{% block content %}
+  <head>
+    <title>Bryson's Vinyl Collection</title>
+    <style>
+    body {
+      text-align: center;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="title">
+      <h1>This is my vinyl collection</h1>
+    </div>
+
+    <div id="record_player">
+      <h3>This is the record player I use</h3>
+      <p>This is the Audio Technica ATLP60</p>
+      <img src="{% static 'collection/atlp60.jpeg' %}"></img>
+      <br><br><br><br>
+    </div>
+
+    <div id="speakers">
+      <h3>These are the speakers I use</h3>
+      <p>These are the Edifier 1280t's</p>
+      <img src="{% static 'collection/edifier1280t.jpeg' %}"></img>
+    </div>
+  </body>
+{% endblock %}

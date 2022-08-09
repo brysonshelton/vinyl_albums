@@ -1,0 +1,25 @@
+{% extends 'collection/base.html' %}
+<!DOCTYPE html>
+{% block content %}
+  <head>
+    <title>Artists List</title>
+    <style>
+    body {
+      text-align: center;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Artists</h1>
+    <div class="artists">
+      {% for artist in artists %}
+        <div class="artist">
+          <h4><a href="{{ artist.name }}">{{ artist.name }}</a></h4>
+        </div>
+      {% endfor %}
+    </div>
+
+  </body>
+{% endblock %}
