@@ -16,7 +16,7 @@
     <div class="artists">
       {% for artist in artists %}
         <div class="artist">
-          <h4><a href="{{ artist.name }}">{{ artist.name }}</a></h4>
+          <h4><a href="{{ artist.name|slugify }}">{{ artist.name }}</a></h4>
         </div>
       {% endfor %}
     </div>

@@ -1,0 +1,36 @@
+{% extends 'collection/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+<head>
+  <title>The Sea And Cake Albums</title>
+  <style>
+  body {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <h4>The Sea and Cake (1994)</h4>
+    <img src="{% static 'collection/the_sea_and_cake/The_Sea_and_Cake-1994.jpg' %}"></img>
+  <br><br>
+  <h4>Nassau (1995)</h4>
+    <img src="{% static 'collection/the_sea_and_cake/Nassau-1995.jpg' %}"></img>
+  <br><br>
+  <h4>The Biz (1995)</h4>
+    <img src="{% static 'collection/the_sea_and_cake/The_biz-1995.jpg' %}"></img>
+  <br><br>
+  <h4>The Fawn (1997)</h4>
+    <img src="{% static 'collection/the_sea_and_cake/The_Fawn-1997.jpg' %}"></img>
+  <br><br>
+  <h4>Oui (2000)</h4>
+    <img src="{% static 'collection/the_sea_and_cake/Oui-2000.jpg' %}"></img>
+  <br><br>
+  <h4>Everybody (2007)</h4>
+    <img src="{% static 'collection/the_sea_and_cake/Everybody-2007.jpg' %}"></img>
+  <br><br>
+  
+</body>
+{% endblock %}
