@@ -12,3 +12,6 @@ def artists(request):
 
 def equipment(request):
     return render(request, "collection/equipment.html", {})
+
+def tsac(request):
+    return render(request, "collection/the-sea-and-cake.html", {})
