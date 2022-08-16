@@ -1,0 +1,24 @@
+{% extends 'collection/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+<head>
+  <title>Dashboard Confessional Albums</title>
+  <style>
+  body {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <h4>The Swiss Army Romance (2000)</h4>
+    <img src="{% static 'collection/dashboard_confessional/the_swiss_army_romance-2000.jpeg' %}"></img>
+  <br><br>
+  <h4>The Places You Have Come To Fear The Most (2001)</h4>
+    <img src="{% static 'collection/dashboard_confessional/the_places_you_have_come_to_fear_the_most-2001.jpeg' %}"></img>
+  <br><br>
+
+</body>
+{% endblock %}

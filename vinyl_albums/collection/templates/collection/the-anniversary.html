@@ -1,0 +1,24 @@
+{% extends 'collection/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+<head>
+  <title>The Anniversary Albums</title>
+  <style>
+  body {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <h4>Designing A Nervous Breakdown (2000)</h4>
+    <img src="{% static 'collection/the_anniversary/Designing_A_Nervous_Breakdown-2000.jpeg' %}"></img>
+  <br><br>
+  <h4>Your Majesty (2002)</h4>
+    <img src="{% static 'collection/the_anniversary/Your_Majesty-2002.jpg' %}"></img>
+  <br><br>
+  
+</body>
+{% endblock %}

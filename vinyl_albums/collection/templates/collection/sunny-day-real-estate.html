@@ -1,0 +1,27 @@
+{% extends 'collection/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+<head>
+  <title>Sunny Day Real Estate Albums</title>
+  <style>
+  body {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <h4>Diary (1994)</h4>
+    <img src="{% static 'collection/sunny_day_real_estate/Diary-1994.jpg' %}"></img>
+  <br><br>
+  <h4>LP2 (1995)</h4>
+    <img src="{% static 'collection/sunny_day_real_estate/lp2-1995.jpg' %}"></img>
+  <br><br>
+  <h4>How It Feels To Be Something On (1998)</h4>
+    <img src="{% static 'collection/sunny_day_real_estate/how_it_feels_to_be_something_on-1998.jpg' %}"></img>
+  <br><br>
+
+</body>
+{% endblock %}
