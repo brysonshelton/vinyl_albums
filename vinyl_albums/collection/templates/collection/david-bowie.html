@@ -1,0 +1,24 @@
+{% extends 'collection/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+<head>
+  <title>David Bowie Albums</title>
+  <style>
+  body {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <h4>Labyrinth (1986)</h4>
+    <img src="{% static 'collection/david_bowie/Labyrinth-1986.jpg' %}"></img>
+  <br><br>
+  <h4>Legacy (2016)</h4>
+    <img src="{% static 'collection/david_bowie/Legacy-2016.jpg' %}"></img>
+  <br><br>
+  
+</body>
+{% endblock %}
